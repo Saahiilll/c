@@ -1,0 +1,39 @@
+//variables//
+variable is a container that stores the value
+
+//data types//
+*basic data types*
+int,char,float,double
+*derived data types*
+array,pointer,structure,union
+*enumeration data types*
+enum
+*void data types*
+void
+
+//basic operator//
+an operator is a symbol used to perform operations in given programming language
+1)arithmatic operator|| +,-,*,/,%
+2)relational operator|| ==,!=,>,<,>=,<=
+3)logical operator||    &&,||,!
+4)bitwise operator
+5)assignment operator||  =,+=,-=,*=,/=
+
+
+//format specifier//
+it is a way to tell the compiler what type of data in a variable during taking input displaying output to the user.
+1)%c character print
+2)%d integer print
+3)%f float print
+4)%l long print
+5)%lf long double print
+
+//constants//
+a constant is a value that cant be changed in a program.
+there are two ways to define a constant  1) const keyword
+                                         2) #define preprocessor
+
+//loops//
+1)do while loops
+2) while loops
+3)for loops                                   
