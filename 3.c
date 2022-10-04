@@ -1,6 +1,15 @@
+//arithmatic operator//
 #include<stdio.h>
 int main(int argc, char const *argv[])
 {
-    printf("%lu", sizeof(float));
+    int a,b;
+    a=36;
+    b=6;
+    printf("a+b = %d\n", a+b);
+    printf("a-b = %d\n", a-b);
+    printf("a*b = %d\n", a*b);
+    printf("a/b = %d\n", a/b);
+    printf("a%b = %d\n", a%b);
     return 0;
 }
+
