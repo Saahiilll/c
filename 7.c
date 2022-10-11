@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
     }
     else
     {
-       printf("you are failed,you cannot get any rewards");
+       printf("you are failed,you cannot get any rewards\n");
     }
 
 
