@@ -1,18 +1,22 @@
-//conditionals statements
-//write a program to find whether the number is even or not using if else statement
 #include<stdio.h>
 int main(int argc, char const *argv[])
 {
-    int a ;
-    printf("enter the number\n");
-    scanf("%d",&a);
-    if (a%2==0)
+    int age;
+    printf("enter your age\n");
+    scanf("%d",&age);
+
+    if (age>=70 && age<=18)
     {
-        printf("the value %d is even\n",a);
+        printf("you cannot drive in this age");
     }
+    if (age<=0)
+    {
+        printf("you are not even born");
+    }
+    
     else
     {
-            printf("the value is not even");
+        printf("you can drive");
     }
     
     return 0;
