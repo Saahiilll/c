@@ -1,5 +1,5 @@
 //write a program to determine whether a character entered by user is lowercase or not
-
+//ascii values
 #include<stdio.h>
 int main(int argc, char const *argv[])
 {
